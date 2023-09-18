@@ -131,6 +131,8 @@ color: var(--text-color);
 	gap: 2rem;	
 }
 
+
+
 .home-text {
 	margin-left: 80px;
 	margin-top: 100px;
@@ -138,12 +140,15 @@ color: var(--text-color);
 	font-weight: 500;
 	line-height: 1.1;
 	margin-bottom: 3rem;
+	
 
 }
 
 .home-img {
 width: 100%;
 height: auto;
+display: flex;
+align-items: center;
 }
 
 span {
@@ -165,9 +170,15 @@ span {
 
 .btn1 arrow {
 	vertical-align: middle;
-	margin-left: 9px;
+	margin-left: 300px;
 	font-size: 22px;
 
+}
+
+.arrow {
+	margin-left: 180px;
+	padding: 5px 5px;
+	background-color: #fff;
 }
 
 .btn:hover {
@@ -359,6 +370,16 @@ height: auto;
 h4 {
 	color: yellow;
 }
+
+.H2 {
+	margin-left: 80px;
+}
+
+.H4 {
+	margin-left: 120px;
+	font-size: 40px;
+}
+
 .btn-order {
 	display: inline-block;
 	padding: 15px 35px;
@@ -369,6 +390,7 @@ h4 {
 	letter-spacing: 4px;
 	border-radius: 3rem;
 	transition: all .50s ease;
+	margin-left: 70px;
 }
 .btn-order arrow {
 	vertical-align: middle;
