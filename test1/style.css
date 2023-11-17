@@ -1,0 +1,48 @@
+.image-div {
+position: absolute;
+  padding: 10px 10px;
+  background-color: rgb(8, 106, 163);
+  border-radius: 30px;
+}
+
+.image-div img {
+   border-radius: 30px; 
+}
+
+.text {
+position: absolute;
+bottom: 450px;
+height: 400px;
+width: 800px;
+left: 550px;
+font-size: 40px;
+
+}
+
+.text2 {
+   top: 500px;
+   position: absolute;
+   height: 400px;
+   width: 850px;
+   font-size: 40px;
+   right: 1020px;
+}
+
+.character1 {
+   color: rgb(57, 57, 241);
+}
+
+.image-div2 {
+   position: fixed;
+   top: 460px;
+   left: 1400px;
+}
+
+.image-div2 img {
+   height: 400px;
+   width: 400px;
+   border-radius: 600px;
+   padding: 5px 5px;
+   background-color: blueviolet;
+}
+
